@@ -1,0 +1,52 @@
+*{
+	padding : 0;
+	box-sizing : border-box;
+	margine : 0;
+}
+input{
+	width:45vw;
+}
+ body {
+        background-image: url('Imgs/alumni1 (3) (1).jpg');
+        background-size: cover; 
+        background-position: center;
+    }
+
+    .registration-form {
+       
+        border-radius: 20px;
+        padding: 30px;
+    }
+
+    .registration-form h2 {
+        color: #EB6ECF;
+        margin-bottom: 30px;
+    }
+
+    .registration-form .btn-primary {
+        background-color: #EB6ECF;
+        border: none;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .registration-form .btn-primary:hover {
+        background-color: #d04c9c;
+    }
+
+    .registration-form input[type="text"],
+    .registration-form input[type="email"],
+    .registration-form input[type="password"] {
+        background-color: rgba(255, 255, 255, 0.7);
+        border: none;
+        border-radius: 10px;
+        color: #333;
+        margin-bottom: 20px;
+        padding: 15px;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .registration-form input[type="text"]:focus,
+    .registration-form input[type="email"]:focus,
+    .registration-form input[type="password"]:focus {
+        box-shadow: 0 0 10px rgba(235, 110, 207, 0.5);
+    }

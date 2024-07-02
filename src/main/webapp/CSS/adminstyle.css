@@ -1,0 +1,33 @@
+*{
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
+}
+body
+{
+	/*background-image: url(Login_bg.webp);*/
+}
+.container{
+	margin-left:400px;
+	color : white;
+	margin-top : 10vh;
+	margin-left : 70vh;
+	transition: filter 0.3s;
+}
+.container:focus{
+	 filter: blur(3px); 
+	
+	}
+	.button:hover
+	{
+		width : 20px;
+		height : 40px;
+	}
+.btn ion-icon {
+        font-size: 29px; 
+    }
+    
+.btn:hover ion-icon {
+    font-size: 39px;
+    color :#EB6ECF;
+}
